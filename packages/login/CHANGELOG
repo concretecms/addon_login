@@ -1,0 +1,7 @@
+1.1 
+	- Added option to hide login and password fields if user is logged in, and display logged-in username (linked to user profile page if enabled)
+	- Made register link appear only if registration is enabled and the user has chosen to display
+	- re-wrote the form elements using the form helper
+	- moved css into external css file
+
+1.0 - Initial Release

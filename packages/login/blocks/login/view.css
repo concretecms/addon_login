@@ -1,0 +1,5 @@
+@CHARSET "UTF-8";
+.login_block_form .loginTxt{ font-weight:bold }
+.login_block_form .uNameWrap{ margin:8px 0px; }
+.login_block_form .passwordWrap{ margin-bottom:8px;}
+.login_block_form .login_block_register_link{margin-top:8px; font-size:11px}	
