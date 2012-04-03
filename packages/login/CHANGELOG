@@ -1,3 +1,6 @@
+1.1.1dev 
+	- Updated edit and add to refer to includes using proper methods.
+
 1.1 
 	- Added option to hide login and password fields if user is logged in, and display logged-in username (linked to user profile page if enabled)
 	- Made register link appear only if registration is enabled and the user has chosen to display
