@@ -18,6 +18,7 @@
 		}
 
 		public function view() {
+			$this->set('form', Loader::helper('form'));
 			if (!$this->registerText) {
 				$this->registerText=t('Click here to register %s', '&raquo;');
 			}
