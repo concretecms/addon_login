@@ -35,11 +35,11 @@ class LoginBlockController extends BlockController {
 		}
 	}
 
-	public function save($data) {
-		$args['registerText'] = isset($data['registerText']) ? trim($data['registerText']) : '';
-		$args['showRegisterLink'] = intval($data['showRegisterLink']);
-		$args['returnToSamePage'] = intval($data['returnToSamePage']);
-		$args['hideFormUponLogin'] = intval($data['hideFormUponLogin']);
+	public function save($args) {
+		$args['registerText'] = isset($args['registerText']) ? trim($args['registerText']) : '';
+		$args['showRegisterLink'] = intval($args['showRegisterLink']);
+		$args['returnToSamePage'] = intval($args['returnToSamePage']);
+		$args['hideFormUponLogin'] = intval($args['hideFormUponLogin']);
 		parent::save($args);
 	}
 
