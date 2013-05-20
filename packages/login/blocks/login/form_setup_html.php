@@ -15,6 +15,8 @@ function registerTextShown(cb){
 
 <div id="registerTextWrap" style=" display:<?php echo ($showRegisterLink)?'block':'none'?>; margin-top:8px; "> 
 <input name="registerText" type="text" value="<?php echo $registerText?>" maxlength="255" />
+<br />
+<small><?php echo t('Be sure to enable Public Registration') ?></small>
 </div>
 
 <div style="margin-top:16px; ">
