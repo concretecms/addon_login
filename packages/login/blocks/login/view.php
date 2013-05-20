@@ -1,4 +1,5 @@
-<?php defined('C5_EXECUTE') or die(_("Access Denied.")); 
+<?php
+defined('C5_EXECUTE') or die(_("Access Denied."));
 
 $c = Page::getCurrentPage();
 $u = new User();
@@ -43,4 +44,4 @@ if ($u->isRegistered() && $hideFormUponLogin) { ?>
 		<?php   } ?>
 	
 	</form>
-<? } // end if not logged in  ?>
+<?php } // end if not logged in  ?>
