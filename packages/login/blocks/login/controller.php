@@ -18,6 +18,10 @@ class LoginBlockController extends BlockController {
 		return t("Login Box");
 	}
 
+	public function add() {
+		$this->set('registerText', t('Register'));
+	}
+
 	public function view() {
 		$this->set('form', Loader::helper('form'));
 		if (!$this->registerText) {
